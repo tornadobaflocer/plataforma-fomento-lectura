@@ -19,5 +19,9 @@
   },
   "keywords": ["libros", "lectura", "recomendaciones"],
   "author": "Tu Nombre",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/plataforma-fomento-lectura.git"
+  }
 }
