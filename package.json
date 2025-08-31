@@ -1,0 +1,21 @@
+{
+  "name": "plataforma-fomento-lectura",
+  "version": "1.0.0",
+  "description": "Una plataforma para compartir y recomendar libros, fomentando la lectura entre usuarios.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": ["libros", "lectura", "recomendaciones"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
