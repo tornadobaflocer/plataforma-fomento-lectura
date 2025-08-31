@@ -21,7 +21,11 @@ app.get('/', (req, res) => {
   res.send('Bienvenido a la Plataforma Fomento Lectura!');
 });
 
-// Start the server
-app.listen(PORT, () => {
+// Start the server with error handling
+app.listen(PORT, (err) => {
+  if (err) {
+    console.error('Error al iniciar el servidor:', err);
+    return;
+  }
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
